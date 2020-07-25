@@ -1,0 +1,29 @@
+body {
+  background-color: #eeeeee;
+}
+
+img {
+  border-radius: 65%;
+}
+
+h1 {
+  color: #393e46;
+  font-family:fantasy;
+}
+
+h3 {
+  color: #393e46;
+}
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #206a5d;
+  border-width: 6px;
+  width: 8%;
+}
+
+
+/*https://colorhunt.co/palette/196180
+https://colorhunt.co/palette/196224*\
