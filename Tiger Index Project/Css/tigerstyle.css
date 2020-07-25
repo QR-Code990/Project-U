@@ -1,0 +1,39 @@
+/*************** TAG Selectors*****************/
+h1 {
+  color: orange;
+  font-size: 120px;
+  font-style: oblique;
+  text-align: center;
+}
+
+img:hover {
+  background-color: gold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 55px;
+}
+
+/*****************Class Selectors******************/
+.tigerz {
+  background-color: green;
+}
+
+.snakez {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 55px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*****************ID Selectors******************/
+#heading {
+  color: grey;
+}
