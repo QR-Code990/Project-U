@@ -4,6 +4,7 @@ body {
 
 img {
   border-radius: 65%;
+  max-width: 200px;
 }
 
 h1 {
