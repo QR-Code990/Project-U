@@ -1,13 +1,83 @@
 /*https://colorhunt.co/palette/35497*/
-
-body{
+body {
   margin: 0px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  ;
 }
 
 h1 {
-  margin-top: 0px;
+  margin: 60px auto 0 auto;
+  font-family: 'Staatliches', cursive;
+  font-size: 90px;
+  color: #ebecf1;
+  line-height: 130%;
+  font-weight: normal;
 }
 
-div {
-  background-color: #3a4750;
+.heading-title {
+  font-size: 2.6rem;
+}
+
+h2 {
+  color: #12cad6;
+}
+
+h3 {
+  color: #12cad6;
+}
+
+.top-container {
+  background-color: #3282b8;
+  position: relative;
+  padding-top: 330px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer{
+  display: inline-block;
+  margin-left: 50%;
+  border-radius: 50%;
+
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 140px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+}
+
+.airplane {
+  display: block;
+  position: absolute;
+  right: 800px;
+  bottom: 750px;
+
+}
+
+.mountain {
+  max-height: 200%;
+  width: auto;
 }
