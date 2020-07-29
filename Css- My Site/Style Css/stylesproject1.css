@@ -58,7 +58,7 @@ hr {
 
 .bottom-container {
   background-color: #fa1616;
-  margin-bottom: 0px;
+  height: 80px;
 }
 
 /*************************************Images*********************************/
@@ -68,7 +68,7 @@ hr {
   width: 250px;
   border-radius:50%;
   padding:1px;
-   border:1px solid #021a40;
+  border:2px solid #021a40;
 }
 
 .web {
@@ -77,14 +77,14 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 600px;
+  right: 500px;
   top: 240px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 600px;
-  bottom: 300px;
+  left: 450px;
+  bottom: 400px;
 }
 
 .airplane {
@@ -110,9 +110,17 @@ hr {
 .chilli-img {
   width: 25%;
   float: right;
+  margin-left: 40px;
 }
 /*************************************Paragraphs**************************/
 
 .profile{
   margin-bottom: 5%;
+}
+
+.Welcome-Paragraphs{
+ width: 30%;
+ text-align: center;
+ line-height: 2;
+ margin-left: 35%;
 }
