@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   text-align: center;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;;
   ;
 }
 
@@ -23,10 +23,21 @@ h1 {
 
 h2 {
   color: #050505;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-top: 50px;
+
+}
+
+.In-Touch {
+  margin-top: 0px;
+  top: 30px;
+  margin-bottom: 3%;
 }
 
 h3 {
   color: #050505;
+  margin-top: 2%;
 }
 
 hr {
@@ -35,14 +46,15 @@ hr {
   border-color: #fa1616;
   border-width: 9px;
   width: 4%;
-  margin-bottom: 5%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 /**************************************Containters***************************/
 .top-container {
   background-color: #3282b8;
   position: relative;
-  padding-top: 7%;
+  padding-top: 4%;
 }
 
 .middle-container {
@@ -51,7 +63,7 @@ hr {
 
 .skill-row {
   width: 40%;
-  margin: 200px auto 200px auto;
+  margin: 90px auto 200px auto;
   text-align: left;
   line-height: 2;
 }
@@ -59,6 +71,8 @@ hr {
 .bottom-container {
   background-color: #fa1616;
   height: 80px;
+  padding-top: 30px;
+  padding-bottom: 25px;
 }
 
 /*************************************Images*********************************/
@@ -76,39 +90,34 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 500px;
-  top: 240px;
+  right: 350px;
+  top: 100px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 450px;
+  left: 360px;
   bottom: 400px;
 }
 
 .jet-fighter {
   display: block;
   position: absolute;
-  right: 800px;
+  right: 700px;
   bottom: 750px;
 }
 
 .mountain {
   max-height: 800%;
   width: auto;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
-.css-img {
+.coding {
   width: 25%;
   float: left;
-  background-image: url('\Images\css.png');
-  margin-right: 30px;
+  margin-right: 70px;
   margin-bottom: 20px;
-}
-
-.css-3:hover {
-  background-image: url('\Images\html.png')t;
 }
 
 .drums {
@@ -127,4 +136,35 @@ hr {
   text-align: center;
   line-height: 2;
   margin-left: 35%;
+}
+
+.In-Touch-P{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/**********************************Button**********************************/
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  margin-bottom: 5%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
