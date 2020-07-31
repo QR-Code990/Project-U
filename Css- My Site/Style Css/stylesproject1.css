@@ -5,9 +5,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
   ;
 }
+
 /*****************************Headings & Headers***************************/
 h1 {
-  margin: 290px auto 0 auto;
+  margin: 300px auto 0 auto;
   font-family: 'Staatliches', cursive;
   font-size: 150px;
   color: #ebecf1;
@@ -36,8 +37,8 @@ hr {
   width: 4%;
   margin-bottom: 5%;
 }
-/**************************************Containters***************************/
 
+/**************************************Containters***************************/
 .top-container {
   background-color: #3282b8;
   position: relative;
@@ -48,13 +49,12 @@ hr {
   background-color: #eeeeee;
 }
 
-
 .skill-row {
-    width: 50%;
-    margin: 100px auto 200px auto;
-    text-align: left;
-    line-height: 2;
-  }
+  width: 40%;
+  margin: 200px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
 
 .bottom-container {
   background-color: #fa1616;
@@ -62,13 +62,12 @@ hr {
 }
 
 /*************************************Images*********************************/
-
-.profile-img{
+.profile-img {
   margin-top: 90px;
   width: 250px;
-  border-radius:50%;
-  padding:1px;
-  border:2px solid #021a40;
+  border-radius: 50%;
+  padding: 1px;
+  border: 2px solid #021a40;
 }
 
 .web {
@@ -87,7 +86,7 @@ hr {
   bottom: 400px;
 }
 
-.airplane {
+.jet-fighter {
   display: block;
   position: absolute;
   right: 800px;
@@ -95,32 +94,37 @@ hr {
 }
 
 .mountain {
-  max-height: 200%;
+  max-height: 800%;
   width: auto;
   margin-top: 60px;
 }
 
-.pc-img {
+.css-img {
   width: 25%;
-  border-radius: 50%;
-  float:left;
+  float: left;
+  background-image: url('\Images\css.png');
   margin-right: 30px;
+  margin-bottom: 20px;
 }
 
-.chilli-img {
+.css-3:hover {
+  background-image: url('\Images\html.png')t;
+}
+
+.drums {
   width: 25%;
   float: right;
-  margin-left: 40px;
+  margin-left: 80px;
 }
-/*************************************Paragraphs**************************/
 
-.profile{
+/*************************************Paragraphs**************************/
+.profile {
   margin-bottom: 5%;
 }
 
-.Welcome-Paragraphs{
- width: 30%;
- text-align: center;
- line-height: 2;
- margin-left: 35%;
+.Welcome-Paragraphs {
+  width: 30%;
+  text-align: center;
+  line-height: 2;
+  margin-left: 35%;
 }
