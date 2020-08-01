@@ -16,7 +16,7 @@ h1 {
   font-weight: normal;
 }
 
-.pro {
+.profession {
   font-size: 2.6rem;
   margin-top: 60px;
 }
@@ -73,7 +73,7 @@ hr {
   background-color: #fa1616;
   height: 80px;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 /*************************************Images*********************************/
@@ -130,13 +130,14 @@ hr {
 /*************************************Paragraphs**************************/
 .profile {
   margin-bottom: 5%;
+  margin: auto;
 }
 
-.Welcome-Paragraphs {
-  width: 30%;
+.Intro {
+  width: 28%;
   text-align: center;
   line-height: 2;
-  margin-left: 35%;
+  margin: auto;
 }
 
 .In-Touch-P{
