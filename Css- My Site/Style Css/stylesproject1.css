@@ -22,8 +22,8 @@ h1 {
 }
 
 h2 {
-  color: #050505;
-  margin-bottom: 20px;
+  color: #192965;
+  margin-bottom: 50px;
   font-size: 40px;
   margin-top: 50px;
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  color: #050505;
+  color: #192965;
   margin-top: 2%;
 }
 
@@ -59,6 +59,7 @@ hr {
 
 .middle-container {
   background-color: #eeeeee;
+
 }
 
 .skill-row {
@@ -71,8 +72,8 @@ hr {
 .bottom-container {
   background-color: #fa1616;
   height: 80px;
-  padding-top: 30px;
-  padding-bottom: 25px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 /*************************************Images*********************************/
@@ -139,7 +140,7 @@ hr {
 }
 
 .In-Touch-P{
-  margin-top: 3%;
+  margin-top: 4%;
   margin-bottom: 3%;
 }
 
@@ -167,4 +168,29 @@ hr {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+/********************************Footers**************************/
+.footer-link {
+color: 005086;
+font-style: normal;
+font-weight: bolder;
+}
+
+.footer-link2{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: bolder;
+}
+
+.footer-icon{
+  font-size: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: small;
 }
