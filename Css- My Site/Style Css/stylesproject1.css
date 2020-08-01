@@ -184,13 +184,11 @@ font-weight: bolder;
 }
 
 .footer-icon{
-  font-size: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 0.75rem;
+  padding: 5px 0;
 }
 
 .footer-p {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: small;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
