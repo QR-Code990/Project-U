@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;;
+  font-family: 'Raleway', sans-serif;
   ;
 }
 
@@ -26,7 +26,6 @@ h2 {
   margin-bottom: 50px;
   font-size: 40px;
   margin-top: 50px;
-
 }
 
 .In-Touch {
@@ -59,7 +58,6 @@ hr {
 
 .middle-container {
   background-color: #eeeeee;
-
 }
 
 .skill-row {
@@ -140,51 +138,53 @@ hr {
   margin: auto;
 }
 
-.In-Touch-P{
+.In-Touch-P {
   margin-top: 4%;
   margin-bottom: 3%;
 }
 
 /**********************************Button**********************************/
 .myButton {
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
-	border-radius:10px;
-	border:1px solid #4e6096;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 37px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
   margin-bottom: 5%;
 }
+
 .myButton:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#476e9e;
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 /********************************Footers**************************/
 .footer-link {
-color: 005086;
-font-style: normal;
-font-weight: bolder;
+  color: 005086;
+  font-style: normal;
+  font-weight: bolder;
 }
 
-.footer-link2{
+.footer-link2 {
   margin-left: 40px;
   margin-right: 40px;
   font-weight: bolder;
 }
 
-.footer-icons{
+.footer-icons {
   font-size: 0.75rem;
   padding: 10px 0;
 }
@@ -192,4 +192,67 @@ font-weight: bolder;
 .footer-p {
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+/********************************cantact*************************/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.top-contact-container {
+  background-color: #3282b8;
+}
+
+.logo-icon{
+  position: absolute;
+  left:30px;
+  top:20px;
+  border: 2px solid #021a40;
+  border-radius: 30px;
+}
+
+.contact-h2{
+  margin: 0 auto;
+  padding: 5%;
+  font-family: 'Staatliches', cursive;
+}
+
+/* Add a background color and some padding around the form */
+.middle-contact-container {
+  margin: 25px 30% 75px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }

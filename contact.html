@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Q.R.Code - Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Images\favicon-16x16.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Rowdies:wght@300;400;700&family=Staatliches&family=Work+Sans:ital,wght@0,600;0,700;1,300;1,600;1,800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" >
+</head>
+
+
+<body>
+  <div class="top-contact-container">
+    <h2 class= "contact-h2">QR-Code</h2>
+    <img class="logo-icon" src="Images\android-chrome-192x192.png" alt="Qr-Code Logo">
+  </div>
+  <hr>
+  <div class="middle-contact-container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+  <div class="bottom-contact-container">
+    Bottom!
+  </div>
+</body>
+
+</html>
