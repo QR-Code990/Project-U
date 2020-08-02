@@ -68,7 +68,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: #fa1616;
+  background-color: #84a9ac;
   height: 80px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -191,6 +191,7 @@ hr {
 .footer-p {
   font-size: 0.75rem;
   padding: 20px 0;
+   background-color:  inherit;
 }
 
 /********************************cantact*************************/
@@ -246,6 +247,7 @@ input[type=submit]:hover {
   margin: 0 auto;
   padding: 5%;
   font-family: 'Staatliches', cursive;
+  font-size: 80px;
   color: #f2f2f2;
 }
 
@@ -260,9 +262,36 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.middle-contact-container {
+.left-middle-contact-container {
+  position: relative;
+  right: 400px;
   margin: 25px 30% 75px;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.right-middle-contact-container{
+
+}
+
+.bottom-contact-container{
+  background-color: #84a9ac;
+  height: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+a{
+margin: 10px 15px auto;
+text-decoration: none;
+}
+
+.freepik{
+  margin: 0;
+}
+
+.freepik-paragraph{
+  font-size: 11px;
+  font-color: #021a40;
 }
