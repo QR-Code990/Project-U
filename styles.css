@@ -130,7 +130,6 @@ hr {
   margin-bottom: 5%;
   margin: auto;
 }
-
 .Intro {
   width: 28%;
   text-align: center;
@@ -247,6 +246,17 @@ input[type=submit]:hover {
   margin: 0 auto;
   padding: 5%;
   font-family: 'Staatliches', cursive;
+  color: #f2f2f2;
+}
+
+.top-contact-container-hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #fa1616;
+  border-width: 4px;
+  width: 100%;
+  margin-top: 0;
+
 }
 
 /* Add a background color and some padding around the form */
