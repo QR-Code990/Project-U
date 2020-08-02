@@ -171,22 +171,7 @@ hr {
 }
 
 /********************************Footers**************************/
-.footer-link {
-  color: 005086;
-  font-style: normal;
-  font-weight: bolder;
-}
 
-.footer-link2 {
-  margin-left: 40px;
-  margin-right: 40px;
-  font-weight: bolder;
-}
-
-.footer-icons {
-  font-size: 0.75rem;
-  padding: 10px 0;
-}
 
 .footer-p {
   font-size: 0.75rem;
@@ -253,16 +238,21 @@ input[type=submit]:hover {
 
 .top-contact-container-hr{
   border-style: none;
-  border-top-style: dotted;
+  border-top-style: outset;
   border-color: #fa1616;
   border-width: 4px;
   width: 100%;
   margin-top: 0;
+}
 
+.top-contact-container-h3{
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 800px;
 }
 
 /* Add a background color and some padding around the form */
-.left-middle-contact-container {
+.middle-contact-container {
   position: relative;
   right: 400px;
   margin: 25px 30% 75px;
@@ -271,15 +261,17 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.right-middle-contact-container{
-
+.http-icon{
+  position: absolute;
+  top:40%;
+  left: 70%;
 }
 
 .bottom-contact-container{
   background-color: #84a9ac;
   height: 80px;
   padding-top: 40px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
 a{
@@ -292,6 +284,7 @@ text-decoration: none;
 }
 
 .freepik-paragraph{
+  margin-top: 5px;
   font-size: 11px;
   font-color: #021a40;
 }
