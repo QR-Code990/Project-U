@@ -50,6 +50,7 @@ hr {
 }
 
 /**************************************Containters***************************/
+
 .top-container {
   background-color: #3282b8;
   position: relative;
@@ -125,7 +126,7 @@ hr {
   margin-left: 80px;
 }
 
-/*************************************Paragraphs**************************/
+/*************************************Paragraphs******************************/
 .profile {
   margin-bottom: 5%;
   margin: auto;
@@ -264,7 +265,17 @@ input[type=submit]:hover {
 .http-icon{
   position: absolute;
   top:40%;
-  left: 70%;
+  right: 20.5%;
+}
+
+.http-icon-p{
+position: absolute;
+position: fixed;
+text-align: center;
+width: 20%;
+right: 22%;
+top: 65%;
+
 }
 
 .bottom-contact-container{
