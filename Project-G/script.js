@@ -1,14 +1,15 @@
 var character = document.getElementById("character");
 document.addEventListener("click",jump);
 function jump(){
-  if(character.classList == "animate"){return;}
+  if(character.classlist != "animate"){
     character.classList.add("animate");
-    setTimeout(removeJump,300); //300ms = length of animation
+    }
+    setTimeout(removeJump,400); //300ms = length of animation
 };
-
 function removeJump(){
     character.classList.remove("animate");
 }
+
 var block = document.getElementById("block");
 function checkDead(){
     let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));

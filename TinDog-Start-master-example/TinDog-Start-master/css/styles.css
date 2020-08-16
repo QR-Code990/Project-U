@@ -13,22 +13,41 @@ font-family: 'Baloo Tamma 2', cursive !important;
 /* navigation bar */
 
 .navbar{
-padding-bottom: 4.5rem !important;
+padding: 0 0 4.5rem;
 }
 
 .navbar-brand{
-  font-size: 50px !important;
+  font-size: 30px !important;
 }
 
+.nav-item{
+  padding: 0 18px;
+}
 
+.nav-link{
+font-size: 1.4rem;
+font-weight: lighter;
+
+}
+
+/* header */
 h1 {
   font-family: 'Staatliches', cursive;
   font-size: 4rem !important;
   line-height: 1.5;
-  font-weight: 900;
+  font-weight: 700;
   color: white;
 }
 
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
 
-  /*font-family: 'Montserrat', sans-serif;
-  font-family: 'Ubuntu', sans-serif;*/
+/* Title image */
+.title-image{
+  max-width: 90%;
+  height: auto;
+  padding-bottom: 45%;
+  transform: rotate(5deg);
+}
