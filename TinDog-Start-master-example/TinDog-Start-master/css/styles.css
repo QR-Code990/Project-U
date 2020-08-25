@@ -1,53 +1,123 @@
 #title {
-  background-color: #a2de96
+  background-color: #158467
 }
 
-body{
-font-family: 'Baloo Tamma 2', cursive !important;
+body {
+  font-family: 'Baloo Tamma 2', cursive !important;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 3% 15% !important;
 }
 
 /* navigation bar */
-
-.navbar{
-padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
+  font-weight: 300;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 30px !important;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.nav-link{
-font-size: 1.4rem;
-font-weight: lighter;
-
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 
 /* header */
 h1 {
   font-family: 'Staatliches', cursive;
-  font-size: 4rem !important;
+  font-size: 60px !important;
   line-height: 1.5;
   font-weight: 700;
   color: white;
 }
 
+h2 {
+  /* font-family: 'Staatliches', cursive; */
+}
+
+h3 {
+font-family: 'Staatliches', cursive;
+}
+
+/* paragraphs */
+p {
+  color: #8f8f8f;
+  font-weight: 300;
+}
+
 /* download buttons */
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title image */
-.title-image{
+.title-image {
   max-width: 90%;
   height: auto;
-  padding-bottom: 45%;
-  transform: rotate(5deg);
+  padding-bottom: 20%;
+  position: relative;
+  left: 10%;
+  /* transform: rotate(5deg); */
+}
+
+.logo-image {
+  width: 20%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+.icon{
+  color: #a35d6a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+color: #519872;
+}
+
+/* features */
+
+#features{
+  padding: 8% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonials */
+#testimonials {
+  padding: 9% 15%;
+  text-align: center;
+  background-color: #519872;
+  color: #ffff;
+  font-size: 30px !important;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 75px;
+  margin: 20px;
+}
+
+/* press */
+
+#press{
+  background-color: #519872;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px
 }
