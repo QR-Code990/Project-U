@@ -95,7 +95,6 @@ color: #519872;
 
 /* testimonials */
 #testimonials {
-  padding: 9% 15%;
   text-align: center;
   background-color: #519872;
   color: #ffff;
@@ -105,8 +104,20 @@ color: #519872;
 
 .testimonial-image{
   width: 10%;
-  border-radius: 75px;
-  margin: 20px;
+  height: 9%;
+  border-radius: 80px;
+  margin: 12.5px;
+}
+
+
+.testimonial-image2{
+  width: 10%;
+  border-radius: 65px;
+  margin: 25px;
+}
+
+.carousel-item{
+  padding: 9% 15%;
 }
 
 /* press */
@@ -121,3 +132,5 @@ color: #519872;
   width: 15%;
   margin: 20px 20px 50px
 }
+
+  /* <!-- Pricing --> */
