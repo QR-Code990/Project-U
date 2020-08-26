@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches', cursive;
 }
 
 /* paragraphs */
@@ -73,18 +73,17 @@ p {
   border-radius: 50%;
 }
 
-.icon{
+.icon {
   color: #a35d6a;
   margin-bottom: 1rem;
 }
 
-.icon:hover{
-color: #519872;
+.icon:hover {
+  color: #519872;
 }
 
 /* features */
-
-#features{
+#features {
   padding: 8% 15%;
 }
 
@@ -99,38 +98,43 @@ color: #519872;
   background-color: #519872;
   color: #ffff;
   font-size: 30px !important;
-
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   height: 9%;
   border-radius: 80px;
   margin: 12.5px;
 }
 
-
-.testimonial-image2{
+.testimonial-image2 {
   width: 10%;
   border-radius: 65px;
   margin: 25px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 9% 15%;
 }
 
 /* press */
-
-#press{
+#press {
   background-color: #519872;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-image{
+.press-image {
   width: 15%;
   margin: 20px 20px 50px
 }
 
-  /* <!-- Pricing --> */
+/* <!-- Pricing --> */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.Pricing-column {
+  padding: 3% 2%;
+}
