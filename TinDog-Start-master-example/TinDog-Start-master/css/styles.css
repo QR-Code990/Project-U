@@ -2,6 +2,13 @@
   background-color: #519872
 }
 
+@media (max-width: 991px) {
+  #title {
+    padding-left: 100px;
+    text-align: center;
+  }
+}
+
 body {
   font-family: 'Baloo Tamma 2', cursive !important;
 }
@@ -31,8 +38,7 @@ body {
 }
 
 /* header */
-
-.header{
+.header {
   padding-bottom: 8%;
 }
 
@@ -73,10 +79,10 @@ p {
 }
 
 @media (max-width: 991px) {
-.title-image{
-  position: static;
-  transform: rotate(-10deg);
-}
+  .title-image {
+    position: static;
+    transform: rotate(-10deg);
+  }
 }
 
 /* icon for features */
@@ -94,7 +100,8 @@ p {
   padding: 4% 15%;
   background-color: white;
   position: relative;
-  /* z-index: 1; */ */
+  /* z-index: 1; */
+  */
 }
 
 .feature-box {
@@ -151,4 +158,37 @@ p {
 
 .Pricing-column {
   padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  background-color: #52575d;
+  line-height: 1.5;
+  padding-top: 3%;
+}
+
+.header-cta {
+  color: white;
+  font-size: 3.5rem !important;
+}
+
+.download-button-cta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1.5%;
+}
+
+/* Footer */
+#footer{
+  padding: 4% 0 2% 0;
+  background-color: white;
+  text-align: center;
+}
+.footer-icon{
+size: 3%;
+}
+.footer-Copyright{
+  padding-top: 2%;
 }
