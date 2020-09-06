@@ -1,5 +1,6 @@
 #title {
-  background-color: #519872
+  background-color: #519872;
+  text-align: left;
 }
 
 @media (max-width: 991px) {
@@ -9,9 +10,30 @@
   }
 }
 
+
+/* HTML Elemets */
 body {
   font-family: 'Baloo Tamma 2', cursive !important;
+  text-align: center;
 }
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 60px !important;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+}
+
+h3 {
+  font-family: 'Staatliches', cursive;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 300;
+}
+
 
 .container-fluid {
   padding: 3% 15% !important;
@@ -37,39 +59,11 @@ body {
   font-weight: lighter;
 }
 
-/* header */
-.header {
+/*Title */
+.title-header {
   padding-bottom: 8%;
 }
 
-h1 {
-  font-family: 'Staatliches', cursive;
-  font-size: 60px !important;
-  line-height: 1.5;
-  font-weight: 700;
-  color: white;
-}
-
-h2 {
-  /* font-family: 'Staatliches', cursive; */
-}
-
-h3 {
-  font-family: 'Staatliches', cursive;
-}
-
-/* paragraphs */
-p {
-  color: #8f8f8f;
-  font-weight: 300;
-}
-
-/* download buttons */
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title image */
 .title-image {
   max-width: 100%;
   height: auto;
@@ -85,7 +79,14 @@ p {
   }
 }
 
-/* icon for features */
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* features */
 .icon {
   color: #a35d6a;
   margin-bottom: 1rem;
@@ -94,8 +95,6 @@ p {
 .icon:hover {
   color: #fddb3a;
 }
-
-/* features */
 #features {
   padding: 4% 15%;
   background-color: white;
@@ -105,7 +104,6 @@ p {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -141,7 +139,6 @@ p {
 /* press */
 #press {
   background-color: #519872;
-  text-align: center;
   padding-bottom: 2%;
 }
 
@@ -153,7 +150,6 @@ p {
 /* <!-- Pricing --> */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .Pricing-column {
@@ -162,15 +158,14 @@ p {
 
 /* Call to Action */
 #cta {
-  text-align: center;
   background-color: #52575d;
   line-height: 1.5;
   padding-top: 3%;
-}
-
-.header-cta {
   color: white;
-  font-size: 3.5rem !important;
+}
+ /* Cta is the "parent" and the h3 is the "child" */
+#cta h3 {
+    font-size: 3.5rem;
 }
 
 .download-button-cta {
@@ -180,15 +175,16 @@ p {
   padding-bottom: 1.5%;
 }
 
-/* Footer */
+/* Footer of website */
 #footer{
-  padding: 4% 0 2% 0;
+  padding: 5% 10%;
   background-color: white;
-  text-align: center;
 }
+
 .footer-icon{
-size: 3%;
+  margin: 20px 10px;
 }
+
 .footer-Copyright{
   padding-top: 2%;
 }
