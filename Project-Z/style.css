@@ -1,41 +1,25 @@
-
-
 /* Title */
-
-
-
 /* Body */
-
-body {
-  background-image: url(https://www.wallpaperflare.com/static/886/307/758/star-wars-clone-trooper-black-white-wallpaper.jpg);
-  background-size: cover;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-
 
 /* Header */
-h2 {
-  color: red;
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
   text-align: center;
-  border: 5px solid red;
-  cursor: pointer;
 }
-
-
 /* Paragraphs */
-
-p{
- color: black;
-}
-
-.webtext{
-  border: 5px dashed #555555;
-  margin: 10px 70px 10px;
-  background-color: rgba(201, 76, 76, 0.3);
-}
-
 /* Lists */
-li{
-  list-style: none;
-  display: inline-block;
+/* Images */
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
 }
