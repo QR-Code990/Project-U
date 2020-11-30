@@ -28,7 +28,7 @@ var newsFeed = [{
 
 
 function isUserValid(username, password) {
-    for (valid i = 0; i < database.length; i++) {
+    for (var i=0; i < database.length; i++) {
         if (database[i].username === username && database[i].password === password) {
             return true;
         }
