@@ -7,22 +7,26 @@ function inputLength() {
 }
 
 
+function createListElement() {
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode(input.value));
+    ul.appendChild(li);
+    input.value = "";
+}
 
-button.addEventListener("click", function () {
+
+function addListAfterClick() {
     if (inputLength() > 0) {
-        var li = document.createElement("li");
-        li.appendChild(document.createTextNode(input.value));
-        ul.appendChild(li);
-        input.value = "";
+        createListElement();
     }
-})
+}
 
-input.addEventListener("keydown", function (event) {
+function addListAfterKeypress(event) {
     if (inputLength() > 0 && event.keyCode === 13) {
-        var li = document.createElement("li");
-        li.appendChild(document.createTextNode(input.value));
-        ul.appendChild(li);
-        input.value = "";
+        createListElement();
     }
+}
 
-})
+button.addEventListener("click", addListAfterClick);
+
+input.addEventListener("keydown", addListAfterKeypress);
