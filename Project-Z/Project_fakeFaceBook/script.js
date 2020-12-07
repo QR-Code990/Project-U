@@ -1,10 +1,12 @@
 var database = [{
         username: "Winnie",
         password: "passWord10020",
-    } {
+    },
+    {
         username: "Tigger",
         password: "passWord10021",
-    } {
+    },
+    {
         username: "Piglet",
         password: "passWord10022",
     }
@@ -18,8 +20,7 @@ var newsFeed = [{
     {
         username: "Eeyore",
         timeline: "Need Lumber jack to help with logs"
-    }
-
+    },
     {
         username: "Rabbit",
         timeline: "100 Acre Woods is having a sale!"
@@ -28,7 +29,7 @@ var newsFeed = [{
 
 
 function isUserValid(username, password) {
-    for (var i=0; i < database.length; i++) {
+    for (var i = 0; i < database.length; i++) {
         if (database[i].username === username && database[i].password === password) {
             return true;
         }
@@ -38,7 +39,7 @@ function isUserValid(username, password) {
 
 
 function signIn(username, password) {
-    if (user === database[0].username && pass === database[0].password) {
+    if (isUserValid(username, password)) {
         console.log(newsFeed);
 
     } else {

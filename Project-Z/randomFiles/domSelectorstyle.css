@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 60vh;
+}
+
+.CoolTitle {
+    font-size: 8em;
+    background: linear-gradient(to right, red, blue);
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+    -webkit-background-clip: text;
+}
