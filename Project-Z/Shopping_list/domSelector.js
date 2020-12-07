@@ -3,6 +3,7 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
+var li = document.getElementsByTagName("li");
 
 
 //prohibits empty entry values from populating the list.
@@ -31,6 +32,24 @@ function addListAfterKeypress(event) {
     if (inputLength() > 0 && event.keyCode === 13) {
         createListElement();
     }
+}
+
+for (var i = 0; i < li.length; i++) {
+    li[i].addEventListener("click", function (event) {
+        event.target.classList.toggle("done");
+        if (event.target.classList.contains('done')) {
+            // add delete button
+            const buttonElem = document.createElement('button');
+            buttonElem.innerText = 'delete';
+            buttonElem.onclick = function () { // remove list item here
+                this.parentElement.remove()
+            };
+            event.target.appendChild(buttonElem);
+        } else {
+            // remove the delete button
+            event.target.getElementByTagName('button').remove();
+        }
+    });
 }
 
 //adding the events for the callback function.

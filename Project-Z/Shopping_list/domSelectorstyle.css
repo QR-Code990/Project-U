@@ -1,7 +1,6 @@
 body {
     display: grid;
-    place-items: center;
-    height: 60vh;
+    place-items: center
 }
 
 .CoolTitle {
@@ -10,4 +9,8 @@ body {
     -webkit-text-fill-color: transparent;
     width: max-content;
     -webkit-background-clip: text;
+}
+
+.done {
+    text-decoration: line-through;
 }
