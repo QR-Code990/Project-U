@@ -1,9 +1,8 @@
 //variables set to allow document to run efficiently.
-//Will allow the HTML page to have a cache value.
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
-var li = document.getElementsByTagName("li");
+var li = document.querySelectorAll("li");
 
 
 //prohibits empty entry values from populating the list.
@@ -17,13 +16,39 @@ function createListElement() {
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
+
+    li.addEventListener("dblclick", function () {
+        // creates a boolean that toggles the done class on li:
+        // if the list item is clicked this toggles the done class
+        var finished = this.classList.toggle("done");
+        // creates a remove button for the finished item:
+        var removeButton = document.createElement("button");
+        removeButton.classList.add("deleteButton");
+
+        // if the list item is clicked (li add event listener) then finished is true
+        if (finished) {
+            removeButton.appendChild(document.createTextNode("remove"));
+            removeButton.classList = "deleteButton";
+            li.appendChild(removeButton);
+
+            removeButton.addEventListener("click", function () {
+                this.parentElement.remove();
+            });
+        } else {
+            this.getElementsByClassName("deleteButton")[0].remove();
+        }
+    })
+
     input.value = "";
+
 }
+
 
 //upon clicking if the entry is greater then 0 the new item will be entered.
 function addListAfterClick() {
     if (inputLength() > 0) {
         createListElement();
+
     }
 }
 
@@ -34,23 +59,6 @@ function addListAfterKeypress(event) {
     }
 }
 
-for (var i = 0; i < li.length; i++) {
-    li[i].addEventListener("click", function (event) {
-        event.target.classList.toggle("done");
-        if (event.target.classList.contains('done')) {
-            // add delete button
-            const buttonElem = document.createElement('button');
-            buttonElem.innerText = 'delete';
-            buttonElem.onclick = function () { // remove list item here
-                this.parentElement.remove()
-            };
-            event.target.appendChild(buttonElem);
-        } else {
-            // remove the delete button
-            event.target.getElementByTagName('button').remove();
-        }
-    });
-}
 
 //adding the events for the callback function.
 button.addEventListener("click", addListAfterClick);
