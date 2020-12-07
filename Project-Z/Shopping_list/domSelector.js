@@ -2,13 +2,13 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
-var li = document.querySelectorAll("li");
 
 
 //prohibits empty entry values from populating the list.
 function inputLength() {
     return input.value.length;
 }
+
 
 //Appends the new item entered to the bottom of the list.
 //list item -> Child of the UL -> Child of the Li = placement of the new entry item.
@@ -17,7 +17,7 @@ function createListElement() {
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
 
-    li.addEventListener("dblclick", function () {
+    li.addEventListener("click", function () {
         // creates a boolean that toggles the done class on li:
         // if the list item is clicked this toggles the done class
         var finished = this.classList.toggle("done");
@@ -44,7 +44,7 @@ function createListElement() {
 }
 
 
-//upon clicking if the entry is greater then 0 the new item will be entered.
+//clicking method if the entry is greater than 0 the new item will be entered.
 function addListAfterClick() {
     if (inputLength() > 0) {
         createListElement();
@@ -63,9 +63,3 @@ function addListAfterKeypress(event) {
 //adding the events for the callback function.
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keydown", addListAfterKeypress);
-
-// This is something called a callback function. When that line of javascript runs,  we don't want the 
-// addLisAfterClick function to run because we are just adding the event listener now to wait for click or keypress. 
-// We want to let it know though that we want this action to happen when a click happens. 
-// So the function now automatically gets run (gets added the ()) every time the click happens. 
-// So we are passing a reference to the function without running it.

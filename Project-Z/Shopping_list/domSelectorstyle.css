@@ -1,7 +1,4 @@
-body {
-    display: grid;
-    place-items: center
-}
+body {}
 
 .CoolTitle {
     font-size: 8em;
