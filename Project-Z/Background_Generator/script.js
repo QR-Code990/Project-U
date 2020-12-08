@@ -24,7 +24,7 @@ function getRandomColor1() {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color1.value = color;
-  }
+   }
 
 function getRandomColor2() {
     var letters = '0123456789ABCDEF';
